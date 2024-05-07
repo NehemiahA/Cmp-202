@@ -1,7 +1,7 @@
 package User;
 
 public class Student extends User {
-    String matric_no = "bhu/22/04/05/0054";
+    String matric_no = "bhu/22/04/09/0023";
     String admission_no = "1789237958103";
     String registerCourse() {
         if (matric_no.equals("") || admission_no.equals("")) {
@@ -19,8 +19,8 @@ public class Student extends User {
     }
     public static void main(String[] args) {
         Student student = new Student();
-        student.name = "Daniel Toba";
-        student.password = "DanCodes123";
+        student.name = "Nehemiah Andrew";
+        student.password = "Falcon123";
         System.out.println(student.register());
         System.out.println(student.registerCourse());
         System.out.println(student.checkResults());
